@@ -1,27 +1,20 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_square - prints a square of size size
- * @size: size of the square
+ * main - Entry point
  *
- * Return: void
+ * Return: Always 0 (Success)
  */
-
-
-void print_square(int size)
+int main(void)
 {
-	int i, j;
+	char c = 'z';
 
-	if (size <= 0)
-		_putchar('\n');
-
-	for (i = 0; i < size; i++)
+	while (c >= 'a')
 	{
-		for (j = 0; j < (size); j++)
-		{
-			_putchar('#');
-		}
-		_putchar('\n');
+		putchar(c);
+		c--;
 	}
+	putchar('\n');
 
+	return (0);
 }
