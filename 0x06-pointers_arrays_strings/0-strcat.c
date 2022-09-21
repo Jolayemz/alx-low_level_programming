@@ -1,5 +1,5 @@
-#include "main.h" 
-  
+#i nclude "main.h" 
+
  /** 
   * _strcat - concatenates two strings 
   * @dest: string to append to 
